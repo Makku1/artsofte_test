@@ -1,0 +1,11 @@
+api_list_cars:
+  path: /api/v1/cars
+  controller: App\Layer\Presentation\Controller\CarController::listAll
+  methods: [GET]
+
+api_list_car_by_id:
+  path: /api/v1/cars/{id}
+  controller: App\Layer\Presentation\Controller\CarController::listById
+  methods: [GET]
+  requirements:
+    id: '\d+'
