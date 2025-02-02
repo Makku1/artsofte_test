@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Layer\Domain\Entity;
+namespace App\Layer\Domain\Entity\Car;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Serializer\Annotation\Groups;
@@ -23,16 +23,21 @@ class Car
     #[Groups(['car:read'])]
     private Model $model;
 
-    #[ORM\Column(type: 'integer')]
+    #[ORM\Column(type: 'string')]
     #[Groups(['car:read'])]
-    private int $photo;
+    private string $photo;
 
     #[ORM\Column(type: 'int')]
     #[Groups(['car:read'])]
     private int $price;
 
-    public function __construct(int $id, Brand $brand, Model $model, string $photo, int $price)
-    {
+    public function __construct(
+        int $id,
+        Brand $brand,
+        Model $model,
+        string $photo,
+        int $price
+    ) {
         $this->id = $id;
         $this->brand  = $brand;
         $this->model = $model;

@@ -2,7 +2,7 @@
 
 namespace App\Layer\Presentation\Controller\Car;
 
-use App\Layer\UseCase\ListCarsUseCase;
+use App\Layer\UseCase\Car\ListCarsUseCase;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;

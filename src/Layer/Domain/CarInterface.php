@@ -2,7 +2,7 @@
 
 namespace App\Layer\Domain;
 
-use App\Layer\Domain\Entity\Car;
+use App\Layer\Domain\Entity\Car\Car;
 
 interface CarInterface
 {

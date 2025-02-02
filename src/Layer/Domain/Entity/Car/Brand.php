@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Layer\Domain\Entity;
+namespace App\Layer\Domain\Entity\Car;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Serializer\Annotation\Groups;

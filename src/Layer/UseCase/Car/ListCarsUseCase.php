@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Layer\UseCase;
+namespace App\Layer\UseCase\Car;
 
 use App\Layer\Domain\CarInterface;
-use App\Layer\Domain\Entity\Car;
+use App\Layer\Domain\Entity\Car\Car;
 
 class ListCarsUseCase
 {
