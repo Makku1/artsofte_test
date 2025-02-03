@@ -17,6 +17,7 @@
         "symfony/dotenv": "7.2.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "7.2.*",
+        "symfony/maker-bundle": "^1.62",
         "symfony/property-access": "7.2.*",
         "symfony/property-info": "7.2.*",
         "symfony/runtime": "7.2.*",
@@ -73,8 +74,5 @@
             "allow-contrib": false,
             "require": "7.2.*"
         }
-    },
-    "require-dev": {
-        "symfony/maker-bundle": "*"
     }
 }
